@@ -1,6 +1,6 @@
 const archivo = require('fs');
 
-archivo.readFile('texto.txt', 'utf-8',(error,data)=> {
+archivo.readFile('JavaScript-Practica-1/texto.txt', 'utf-8',(error,data)=> { //colocar el path del archivo txt
     if(error) console.log(error);
     else comparar(data.split(' '));
 });
